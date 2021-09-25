@@ -1,0 +1,71 @@
+body {
+  font-family: 'Varela Round', sans-serif;
+  background-color: #f7fbff;
+}
+
+a {
+	text-decoration: none;
+	color: #8ac4ff;
+}
+
+a:hover {
+	color: lightblue;
+} 
+
+img {
+	max-height: 90%;
+	max-width: 90%;
+	border-radius: 1em;
+}
+
+.wrapper {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  display: grid;
+  grid-template-columns: 10vw 25vw 30vw;
+  grid-gap: 5vw;
+  background-color: transparent;
+  color: #444;
+}
+
+.container {
+  height: 20em;
+  padding-top:  5em;
+  padding-right: 5em;
+  padding-left: 3em;
+  position: relative;
+  border-radius: 1em;
+  background-color: #e8f2ff;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.useful-links {
+	max-width: 100%;
+	font-size: 4em;
+	padding-left: 1em;
+	list-style-type: none;
+	color: #000;
+}
+
+.name-wrapper {
+	position: relative;
+	height: 5em;
+	padding: 2em;
+}
+
+#name {
+  margin: 0;
+  font-size: 5em;
+  position: absolute;
+  color: #8ac4ff;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
