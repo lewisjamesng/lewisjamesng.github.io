@@ -56,8 +56,18 @@ img {
 
 .name-wrapper {
 	position: relative;
-	height: 5em;
+	height: 2em;
 	padding: 2em;
+}
+#desc {
+  margin: 0;
+  font-size: 1em;
+  position: absolute;
+  color: #8ac4ff;
+  padding-top: 1em;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 #name {
